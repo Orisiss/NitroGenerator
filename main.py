@@ -1,8 +1,24 @@
 import requests
+"""
+Discord nitro link generator.
+
+Imports requests to make API calls, secrets and hashlib 
+to generate random hashes, tkinter for the GUI, 
+and os for file handling.
+
+Contains functions to:
+
+- Generate a nitro link and save it to a file
+- Generate infinite links or a set number of links
+- Open a GUI to select files and control link generation
+- Handle starting and stopping link generation
+"""
 import secrets
 import hashlib
 from tkinter import Tk, filedialog, Label, Button, StringVar, Entry, messagebox
+
 url = "https://api.discord.gx.games/v1/direct-fulfillment"
+
 headers = {
     "authority": "api.discord.gx.games",
     "accept": "*/*",
@@ -83,6 +99,7 @@ def open_gui():
 
     Label(root, text="Choisissez un emplacement pour enregistrer les liens :").pack(pady=10)
     Entry(root, textvariable=file_path_var, state="readonly", width=50).pack(pady=10)
+    
     Button(root, text="Parcourir", command=choose_file).pack(pady=10)
 
     Label(root, text="Nombre de liens à créer (pour l'option 2) :").pack(pady=10)

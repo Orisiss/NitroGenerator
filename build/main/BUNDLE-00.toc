@@ -1,0 +1,1 @@
+([('main', '/Users/lpichon/Discord Nitro/dist/main', 'EXECUTABLE')],)

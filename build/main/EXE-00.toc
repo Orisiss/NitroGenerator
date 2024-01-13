@@ -1,5 +1,5 @@
 ('/Users/lpichon/Discord Nitro/dist/main',
- False,
+ True,
  False,
  False,
  None,
@@ -1157,8 +1157,8 @@
  [],
  False,
  False,
- 1705156398,
- [('runw',
-   '/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/PyInstaller/bootloader/Darwin-64bit/runw',
+ 1705156445,
+ [('run',
+   '/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/PyInstaller/bootloader/Darwin-64bit/run',
    'EXECUTABLE')],
  '/Library/Frameworks/Python.framework/Versions/3.12/Python')

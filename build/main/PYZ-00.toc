@@ -1,4 +1,4 @@
-('/Users/lpichon/Discord Nitro/build/main/PYZ-00.pyz',
+('/Volumes/CT1000P3 PSSD8 Media/Code/NitroGenerator/build/main/PYZ-00.pyz',
  [('__future__',
    '/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/__future__.py',
    'PYMODULE'),

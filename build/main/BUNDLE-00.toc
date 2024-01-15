@@ -1,1 +1,3 @@
-([('main', '/Users/lpichon/Discord Nitro/dist/main', 'EXECUTABLE')],)
+([('main',
+   '/Volumes/CT1000P3 PSSD8 Media/Code/NitroGenerator/dist/main',
+   'EXECUTABLE')],)
